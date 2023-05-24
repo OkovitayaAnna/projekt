@@ -1,8 +1,46 @@
 div {
     display: flex;
+    justify-content: center;
 }
-h1 {
+
+p {
     display: flex;
-    position: absolute;
-    
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+
+.main {
+    width: 1900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.animal {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 30%;
 }
