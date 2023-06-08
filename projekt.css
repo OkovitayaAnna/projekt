@@ -10,7 +10,8 @@ p {
 
 img {
     width: 600px;
-    height: 600px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .main {
@@ -43,4 +44,44 @@ img {
     justify-content: center;
     margin: 20px;
     width: 30%;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  transition: filter 0.3s;
+}
+
+.image-container .image-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.image-container:hover img {
+  filter: brightness(0.5);
+}
+
+.image-container:hover .image-info {
+  opacity: 1;
 }
