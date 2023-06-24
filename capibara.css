@@ -1,0 +1,48 @@
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.main {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.information {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.info {
+    width: 70%;
+}
+
+.game {
+    width: 70%;
+    height: 600px;
+    border-style: double;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+canvas {
+    width: 100%;
+}
+
+#winScreen {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin: 0 auto;
+}

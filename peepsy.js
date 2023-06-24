@@ -18,4 +18,9 @@ captureButton.addEventListener('click', function() {
     score += 1;
     scoreValue.textContent = score;
   }
+
+  if (score > 5) {
+    var notification = new Notification("Yayyy you won! If you want - continue, or maybe you want to see other web-pages :)");
+    //showNotification(notification);
+  }
 });

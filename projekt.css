@@ -9,28 +9,33 @@ p {
 }
 
 img {
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     object-fit: cover;
 }
 
 .main {
-    width: 1900px;
+    width: 1500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .first {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 45px;
 }
 
 .second {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 45px;
 }
 
 .third {
@@ -42,11 +47,11 @@ img {
 .animal {
     display: flex;
     justify-content: center;
-    margin: 20px;
     width: 30%;
 }
 
 .name {
+  align-self: center;
 	display: flex;
 	justify-content: center;
 	font-size: 30px;
@@ -54,7 +59,6 @@ img {
 
 .image-container {
   position: relative;
-  display: inline-block;
 }
 
 .image-container img {
@@ -64,9 +68,9 @@ img {
 .image-container .image-info {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 600px;
-  height: 400px;
+  left: 25px;
+  width: 400px;
+  height: 300px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   opacity: 0;

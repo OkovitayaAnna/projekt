@@ -1,0 +1,82 @@
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.main {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.information {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.info {
+    width: 70%;
+}
+
+.kroko {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.egg {
+    width: 100px;
+    display: block;
+}
+
+.egg1 {
+    width: 100px;
+    display: none;
+}
+
+.egg2 {
+    width: 100px;
+    display: none;
+}
+
+.egg3 {
+    width: 95px;
+    display: none;
+}
+
+.klein {
+    width: 95px;
+    display: none;
+}
+
+.kroko-img {
+    width: 500px;
+    display: none;
+    animation: bigger 15s linear;
+}
+
+@keyframes bigger {
+    0% {
+        width: 200px;
+        rotate: 35deg;
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+    100% {
+        width: 500px;
+        rotate: 0deg;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
