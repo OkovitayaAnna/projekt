@@ -3,8 +3,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 120px;
-  height: 100px;
+  width: 200px;
+  height: 180px;
   border: 2px dashed red;
   pointer-events: none;
 }
@@ -23,27 +23,31 @@
   left: 0;
   width: 60px;
   height: 60px;
-  animation: fly 2s infinite linear;
+  animation: fly 4s infinite linear;
 }
 
 @keyframes fly {
   0% {
-    top: 0;
-    left: 0;
+    top: 100px;
+    left: 100px;
   }
   25% {
-    top: calc(100% - 60px);
-    left: calc(100% - 60px);
+    top: 600px;
+    left: 600px;
   }
   50% {
-    top: calc(var(--random-top) * (100% - 60px));
-    left: calc(var(--random-left) * (100% - 60px));
+    top: 150px;
+    left: 1000px;
   }
   75% {
-    top: 0;
-    left: 0;
+    top: 700px;
+    left: 1200px;
   }
-}
+  100% {
+    top:  100px;
+    left: 100px;
+  }
+} 
 
 .capture-button {
   position: absolute;
