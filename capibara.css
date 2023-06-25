@@ -46,3 +46,9 @@ canvas {
     flex-direction: column;
     margin: 0 auto;
 }
+
+.cap {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto
+}

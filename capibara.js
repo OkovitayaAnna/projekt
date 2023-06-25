@@ -87,6 +87,7 @@ function updateGame() {
 
   if (score >= 10) {
     winScreen.style.display = "flex";
+    document.getElementsByClassName('game')[0].style.display = "none";
   } else {
     requestAnimationFrame(updateGame);
   }
