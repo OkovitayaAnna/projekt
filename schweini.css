@@ -1,7 +1,7 @@
 h1 {
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 
 .main {
@@ -16,15 +16,15 @@ h1 {
 
 .information {
     display: flex;
-    width: 70%;
+    width: 50%;
     justify-content: center;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 45px;
 }
 
 .info {
-    width: 70%;
+    width: 100%;
 }
 
 .mySlides {
@@ -37,5 +37,26 @@ h1 {
     width: 70%;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "Brush Script MT", cursive;
+    color: rgb(83, 134, 68);
+
+}
+
+h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 40px;
+    color: rgb(49, 90, 36);
+}
+
+body {
+    background-color: rgb(214, 255, 201);
+}
+
+.information {
+    flex-direction: column;
     margin: 0 auto;
 }

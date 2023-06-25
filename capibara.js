@@ -3,7 +3,7 @@ var context = canvas.getContext("2d");
 var winScreen = document.getElementById("winScreen");
 
 var capybaraImage = new Image();
-capybaraImage.src = "capibara.webp";
+capybaraImage.src = "capy.png";
 
 var coinImage = new Image();
 coinImage.src = "coin.png";
@@ -25,8 +25,8 @@ function drawGame() {
     context.drawImage(coinImage, coin.x, coin.y, 30, 30);
   }
 
-  context.fillStyle = "#000000";
-  context.font = "20px Arial";
+  context.fillStyle = "rgb(83, 134, 68)";
+  context.font = "25px 'Brush Script MT', cursive";
   context.fillText("Score: " + score, 10, 30);
 }
 

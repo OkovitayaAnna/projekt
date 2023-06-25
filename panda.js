@@ -5,6 +5,6 @@ function fallAndRecover() {
 
     setTimeout(function() {
       panda.classList.remove('fallen');
-    }, 3000);
+    }, 5000);
   }
   

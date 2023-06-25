@@ -5,8 +5,9 @@
   transform: translate(-50%, -50%);
   width: 250px;
   height: 200px;
-  border: 2px dashed rgb(0, 60, 255);
+  border: 2px dashed rgb(83, 134, 68);
   pointer-events: none;
+  border-radius: 20px;
 }
 
 .game-container {
@@ -17,6 +18,7 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .bird {
@@ -86,44 +88,67 @@
   align-self: center;
   margin-top: 250px;
   border-radius: 100%;
-  background-color: aquamarine;
+  background-color: rgb(245, 245, 245);
   border: none;
   padding: 20px;
 }
 
 .capture-button:hover {
-  background-color: rgb(108, 197, 167);
+  background-color: rgb(228, 228, 228);
   cursor: pointer;
+  transition: .2s;
+}
+
+.capture-button:not(:hover) {
+  transition: .2s;
 }
 
 .score {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  color: rgb(83, 134, 68);
+  background-color: rgb(214, 255, 201);
 }
 
 .mistakes {
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  color: rgb(83, 134, 68);
+  background-color: rgb(214, 255, 201);
 }
 
 .won {
-  background-color: rgb(108, 197, 167);
+  background-color: rgb(83, 134, 68);
+  border-radius: 20px;
   display: none;
   justify-content: center;
   text-align: center;
   margin: 0 auto;
   width: 30%;
+  color: white;
+  height: 60px;
 }
 
 .mistake {
-  background-color: rgb(0, 60, 255);
+  background-color: white;
+  border-radius: 20px;
   display: none;
   justify-content: center;
   text-align: center;
   margin: 0 auto;
   width: 30%;
+  color: rgb(83, 134, 68);
+  height: 60px;
+}
+
+p {
+  font-family: "Brush Script MT", cursive;
+}
+
+body {
+  background-color: rgb(214, 255, 201);
 }
