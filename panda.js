@@ -1,10 +1,15 @@
-function fallAndRecover() {
+function run() {
     var panda = document.getElementById('panda');
 
-    panda.classList.add('fallen');
+    var min;
+    var max;
+    var maxT;
 
-    setTimeout(function() {
-      panda.classList.remove('fallen');
-    }, 5000);
+    min = Math.ceil(0);
+    max = Math.floor(1300);
+    maxT = max = Math.floor(600);
+
+    panda.style.top = (Math.floor(Math.random() * (maxT - min)) + min) + 'px';
+    panda.style.left = (Math.floor(Math.random() * (max - min)) + min) + 'px';
   }
   

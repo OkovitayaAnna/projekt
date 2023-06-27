@@ -83,14 +83,13 @@
 
 .capture-button {
   font-size: 16px;
-  display: flex;
-  justify-content: center;
   align-self: center;
-  margin-top: 250px;
   border-radius: 100%;
   background-color: rgb(245, 245, 245);
   border: none;
   padding: 20px;
+  position: absolute;
+  top: 530px;
 }
 
 .capture-button:hover {
@@ -130,7 +129,10 @@
   margin: 0 auto;
   width: 30%;
   color: white;
-  height: 60px;
+  height: 70px;
+  top: 50px;
+  left: 10px;
+  margin-top: -300px;
 }
 
 .mistake {
@@ -143,6 +145,7 @@
   width: 30%;
   color: rgb(83, 134, 68);
   height: 60px;
+  margin-top: -300px;
 }
 
 p {
